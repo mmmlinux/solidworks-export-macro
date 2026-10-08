@@ -1,0 +1,12 @@
+# The VBA editor needs CRLF to import modules correctly.
+*.bas text eol=crlf
+*.cls text eol=crlf
+*.frm text eol=crlf
+*.vba text eol=crlf
+
+# Binary SOLIDWORKS / VBA files.
+*.swp binary
+*.frx binary
+*.sldprt binary
+*.sldasm binary
+*.slddrw binary

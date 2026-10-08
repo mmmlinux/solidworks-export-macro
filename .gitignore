@@ -1,0 +1,15 @@
+# SOLIDWORKS / Office lock and temp files
+~$*
+*.tmp
+
+# Output from test runs
+Export/
+*_export_log.csv
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Local assistant notes, kept out of the published repo
+CLAUDE.md
+.claude/
