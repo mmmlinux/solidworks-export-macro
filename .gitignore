@@ -2,6 +2,9 @@
 ~$*
 *.tmp
 
+# Built macro - published as a release download, not kept in the source
+*.swp
+
 # Output from test runs
 Export/
 *_export_log.csv

@@ -45,6 +45,14 @@ If you turn subfolders off, files go straight into the model's folder. Virtual p
 
 The macro needs SOLIDWORKS 2026 (it was written against the 2026 API type libraries).
 
+### Download the ready-made macro
+
+Download [`ExportAssemblyParts.swp`](https://github.com/mmmlinux/solidworks-export-macro/releases/latest/download/ExportAssemblyParts.swp) from the [latest release](https://github.com/mmmlinux/solidworks-export-macro/releases/latest) and save it anywhere. It already contains the macro and both forms, so you can go straight to [Usage](#usage).
+
+### Build it from source
+
+Use this if you want to change the code, or you'd rather not run a downloaded binary.
+
 1. In SOLIDWORKS, choose **Tools → Macro → New…** and save the macro as `ExportAssemblyParts.swp`. The VBA editor opens.
 2. Choose **File → Import File…** and import `ExportAssemblyParts.bas`. Then delete the default module that SOLIDWORKS created, so that only one `main` exists.
 3. Create the settings form:
