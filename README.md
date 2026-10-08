@@ -109,3 +109,7 @@ The defaults are the `DEF_*` constants under **Settings** at the top of `ExportA
 - While the VBA editor is open, every log row is also printed to the Immediate window (**View → Immediate Window**).
 - To debug a failure, turn on **Stop on the offending line** in the settings dialog. The macro then breaks into the debugger where the error happens instead of logging it and moving on.
 - If a PDF or BOM is missing, look for a `skipped` row. It tells you whether there was no drawing named like the model, or the drawing had no BOM table.
+
+## License
+
+[MIT with the Commons Clause](LICENSE). You're free to use this macro in commercial work, and to change it and share it. You may not sell the macro itself, or a paid product or service whose value comes mainly from it.
